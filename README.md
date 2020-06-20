@@ -5,6 +5,9 @@
 
 Flutter basic implementation for Classical Bluetooth (only RFCOMM for now).
 
+## Fork purpose
+
+The purpose of this fork is removing the location permission from the plugin flutter_bluetooth_serial on Android devices.
 
 
 ## Features
@@ -33,7 +36,7 @@ For now there is only Android support.
 
 ## Getting Started
 
-#### Depending 
+#### Depending
 ```yaml
 # Add dependency to `pubspec.yaml` of your project.
 dependencies:
@@ -58,7 +61,7 @@ import 'package:flutter_bluetooth_serial/flutter_bluetooth_serial.dart';
 
 #### Usage
 
-You should look to the Dart code of the library (mostly documented functions) or to the examples code. 
+You should look to the Dart code of the library (mostly documented functions) or to the examples code.
 ```dart
 // Some simplest connection :F
 try {
